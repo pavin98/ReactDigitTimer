@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.column-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main-card {
+  background-image: linear-gradient(#ffffff, #cffcf1);
+  height: 100%;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+.first-card {
+  height: 80vh;
+  width: 55vw;
+}
+.timer-background {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: 100%;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.counter-card {
+  background-color: #ffffff;
+  color: #1e293b;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.counter-text {
+  margin: 0;
+}
+.icon-btn-container {
+  width: 35vw;
+}
+.icon-btn {
+  color: #0f172a;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.icon-image {
+  height: 30px;
+  width: 30px;
+}
+.second-card {
+  height: 80vh;
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.symbol-btn {
+  font-size: x-large;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.count-text {
+  padding: 10px 30px;
+  background-image: linear-gradient(to right, lightgreen, #00d9f5, #defafe);
+  border-radius: 5px;
+}
+.change-count {
+  width: 60%;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .first-card {
+    height: 50vh;
+    width: 80vw;
+  }
+}
